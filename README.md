@@ -1,27 +1,34 @@
-# Octo-Linker
+# OctoLinker
 
-> Dev branch of the upcoming version
+> Links together, what belongs together
 
-## Packages overview
+# What is OctoLinker?
 
-#### Stable
-- [blob-reader](packages/blob-reader)
-- [helper-file-type](packages/helper-file-type)
-- [helper-grammar-regex-collection](packages/helper-grammar-regex-collection)
+First of all, it's a browser extension. It's currently only available on Chrome. Once installed, it allows you to navigate through projects on GitHub.com efficiently.
 
-### In development
-- [core](packages/core)
-- [link-resolver](packages/link-resolver)
-- [try-load](packages/try-load)
-- [helper-click-handler](packages/helper-click-handler)
-- [helper-replace-keywords](packages/helper-replace-keywords)
+Most projects consist of many files and third party dependencies. Files are referencing other files and / or dependencies by language specific statments like `include` or `require`. Dependencies are most likely declared in a file called manifest e.g. `package.json` or `Gemfile`. The OctoLinker browser extensions makes theses references clickable. No more copy and search.
 
-# Getting started
+# Want to contribute?
 
-To build and run the extension follow these steps.
+Anyone can help make this project better - check out the [Contributing](/CONTRIBUTING.md) and [Developer](/DEVELOPER.md) guide!
 
-0. Clone this repository and checkout the `dev` branch.
-0. Setup project and install dependencies `./scripts/bootstrap`
-0. To build the extension run `./scripts/build`.
-0. If installed, deactivate Octo-Linker 3.x
-0. Load extension https://developer.chrome.com/extensions/getstarted#unpacked
+# Feedback please
+
+If you encounter a problem using OctoLinker, or would like to request an enhancement, feel free to create an [issue](https://github.com/OctoLinker/browser-extension/issues) or say hello [@octo_linker](https://twitter.com/OctoLinker) on twitter.
+
+
+# Thanks
+
+- My girlfriend for being so patient with me!
+- [art-noir.net](http://art-noir.net) for the awesome mascot and website!
+- @petereberlecom for building the website!
+- @kkamilio and @WolnyAdrian for teaching me how Ruby works!
+- @TheeApeman for code review!
+- Every early OctoLinker user, which contributed to OctoLinker by writing issues or PRs!
+- Everyone I forgot to mention here, but also influenced OctoLinker!
+
+# Legal and License
+
+The OctoLinker project is not affiliated with, sponsored by, or endorsed by github, inc.
+
+Copyright (c) 2014-present [Stefan Buck](https://github.com/stefanbuck) Licensed under the MIT license.
